@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profile_infos",
+  "info": {
+    "singularName": "profile-info",
+    "pluralName": "profile-infos",
+    "displayName": "Profile Info"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profileName": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "backgroundInformation": {
+      "type": "text"
+    },
+    "profilePic": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "Socials": {
+      "type": "json"
+    }
+  }
+}
